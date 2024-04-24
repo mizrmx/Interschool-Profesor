@@ -1,0 +1,803 @@
+.placeholder {
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 84.62%;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-2);
+}
+.admin,
+.mayraZ,
+.placeholder {
+  position: absolute;
+}
+.mayraZ {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.admin {
+  top: 54.35%;
+  left: 28.13%;
+  color: var(--color-gray-3);
+}
+.name {
+  height: 76.67%;
+  width: 16.41%;
+  top: 11.67%;
+  right: 21.54%;
+  bottom: 11.67%;
+  left: 62.05%;
+}
+.bg,
+.iconKey,
+.name {
+  position: absolute;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white1);
+}
+.iconKey {
+  height: 45%;
+  width: 40%;
+  top: 28.33%;
+  right: 30%;
+  bottom: 26.67%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.contrasea {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 44.36%;
+  bottom: 0;
+  left: 40.26%;
+}
+.iconCalendarCheck {
+  position: absolute;
+  height: 46.83%;
+  width: 36.67%;
+  top: 28.33%;
+  right: 31.67%;
+  bottom: 24.83%;
+  left: 31.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.disponibilidad,
+.iconInbox {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 64.87%;
+  bottom: 0;
+  left: 19.74%;
+}
+.iconInbox {
+  height: 30%;
+  width: 40%;
+  top: 35%;
+  right: 30%;
+  bottom: 35%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.inbox {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 84.62%;
+  bottom: 0;
+  left: 0;
+}
+.background,
+.sideMenu {
+  position: absolute;
+  height: 5.08%;
+  width: 21.57%;
+  top: 4.91%;
+  right: 0;
+  bottom: 90.02%;
+  left: 78.43%;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-purple);
+}
+.groupChild,
+.scolarpanel {
+  position: absolute;
+  top: 11.76%;
+  left: 29.27%;
+}
+.groupChild {
+  height: 94.12%;
+  width: 100%;
+  top: 5.88%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-orange);
+}
+.i,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+}
+.i {
+  height: 86.27%;
+  width: 27.08%;
+  left: 37.5%;
+  display: inline-block;
+}
+.rectangleParent {
+  height: 100%;
+  width: 19.51%;
+  right: 80.49%;
+  bottom: 0;
+  left: 0;
+  font-size: var(--heading-heading-1-size);
+}
+.footer {
+  position: absolute;
+  height: 4.31%;
+  width: 68.33%;
+  top: 91.79%;
+  right: 15%;
+  bottom: 3.89%;
+  left: 16.67%;
+}
+.homeIcon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard {
+  width: 299px;
+  filter: var(--shadow);
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.email {
+  position: relative;
+  font-weight: 500;
+}
+.students {
+  width: 299px;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.iconPdfFile {
+  width: 21px;
+  position: relative;
+  height: 28px;
+}
+.food,
+.list {
+  display: flex;
+  justify-content: flex-start;
+}
+.food {
+  width: 316px;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  background-color: var(--color-background);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  color: var(--color-purple);
+}
+.list {
+  position: absolute;
+  height: 76.31%;
+  width: 87.78%;
+  top: 10.07%;
+  right: 0;
+  bottom: 13.62%;
+  left: 12.22%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-gray-2);
+}
+.e,
+.escuelaBenitoJuarez {
+  position: absolute;
+  height: 64.71%;
+  width: 78.01%;
+  top: 25.49%;
+  left: 21.99%;
+  display: inline-block;
+}
+.e {
+  height: 86.27%;
+  width: 41.67%;
+  top: 0;
+  left: 29.17%;
+}
+.logo,
+.rectangleGroup {
+  position: absolute;
+  height: 100%;
+  width: 16.49%;
+  top: 0;
+  right: 83.51%;
+  bottom: 0;
+  left: 0;
+  font-size: var(--heading-heading-1-size);
+}
+.logo {
+  height: 4.31%;
+  width: 80.83%;
+  top: 3.98%;
+  right: 10.83%;
+  bottom: 91.71%;
+  left: 8.33%;
+  font-size: var(--font-size-xl);
+}
+.component1,
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sidebar {
+  height: 100%;
+  width: 19.91%;
+  right: 80.09%;
+  bottom: 0;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white1);
+}
+.component1 {
+  width: 1808px;
+  height: 1182px;
+  font-size: var(--text-text-regular-2-size);
+}
+.b,
+.div {
+  position: absolute;
+  top: 17px;
+  left: 13px;
+}
+.b {
+  left: 83px;
+  display: inline-block;
+  width: 27px;
+}
+.bMat1,
+.mat1,
+.matemticas {
+  position: absolute;
+  top: 17px;
+  left: 211px;
+}
+.bMat1,
+.matemticas {
+  left: 394px;
+}
+.matemticas {
+  left: 652px;
+}
+.placeholder1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 20px);
+  border-radius: var(--br-xl);
+  background-color: var(--color-purple);
+  width: 40px;
+  height: 40px;
+  opacity: 0.1;
+}
+.vectorIcon {
+  position: absolute;
+  height: 45%;
+  width: 45%;
+  top: 27.5%;
+  right: 27.5%;
+  bottom: 27.5%;
+  left: 27.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.nuevo {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 365px);
+  width: 40px;
+  height: 40px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 50%;
+  width: 42.5%;
+  top: 25%;
+  right: 30%;
+  bottom: 25%;
+  left: 27.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.eliminar {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 310px);
+  width: 40px;
+  height: 40px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 45%;
+  width: 50%;
+  top: 27.5%;
+  right: 22.5%;
+  bottom: 27.5%;
+  left: 27.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.editar {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 255px);
+  width: 40px;
+  height: 40px;
+}
+.container,
+.frameDiv,
+.group,
+.parent,
+.parent1,
+.parent2,
+.parent3 {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white1);
+  width: 1350px;
+  height: 64px;
+}
+.container,
+.frameDiv,
+.group,
+.parent1,
+.parent2,
+.parent3 {
+  top: 92px;
+}
+.container,
+.frameDiv,
+.parent1,
+.parent2,
+.parent3 {
+  top: 176px;
+}
+.frameDiv,
+.parent1,
+.parent2,
+.parent3 {
+  top: 260px;
+}
+.parent1,
+.parent2,
+.parent3 {
+  top: 344px;
+}
+.parent2,
+.parent3 {
+  top: 428px;
+}
+.parent3 {
+  top: 512px;
+}
+.dropdownIcon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.selectedpage {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 25px);
+  box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-purple);
+  width: 50px;
+  height: 50px;
+}
+.div8 {
+  position: absolute;
+  top: 11px;
+  left: calc(50% - 3px);
+  display: inline-block;
+  width: 6.9px;
+}
+.div7 {
+  width: 50px;
+  position: relative;
+  height: 50px;
+  color: var(--color-white1);
+}
+.background1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 25.5px);
+  border-radius: var(--br-21xl);
+  border: 2px solid var(--color-gray-2);
+  box-sizing: border-box;
+  width: 51px;
+  height: 51px;
+}
+.div10 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% - 5.5px);
+  display: inline-block;
+  width: 10.9px;
+}
+.div9 {
+  width: 51px;
+  position: relative;
+  height: 51px;
+}
+.page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.pagination {
+  position: absolute;
+  top: 648px;
+  left: 1059px;
+  width: 280px;
+  height: 51px;
+  color: var(--color-gray-2);
+}
+.frameParent {
+  position: absolute;
+  top: 40px;
+  left: -29px;
+  width: 1361px;
+  height: 699px;
+  overflow-y: auto;
+}
+.idCurso,
+.idGrupo,
+.idMateria,
+.materia {
+  position: absolute;
+  top: -3px;
+  left: 51px;
+  font-weight: 600;
+}
+.idCurso,
+.idMateria,
+.materia {
+  left: 194px;
+}
+.idCurso,
+.materia {
+  left: 390px;
+}
+.materia {
+  left: 647px;
+}
+.acciones,
+.menuTable {
+  position: absolute;
+  top: 0;
+}
+.acciones {
+  left: 934px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+}
+.menuTable {
+  left: 19px;
+  width: 1342px;
+  height: 24px;
+  font-size: var(--font-size-xl);
+}
+.table {
+  position: absolute;
+  top: 402px;
+  left: 429px;
+  width: 1361px;
+  height: 739px;
+  color: var(--color-gray-300);
+}
+.bg3,
+.bg4 {
+  top: 0;
+  left: 0;
+}
+.bg4 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white1);
+}
+.bg3 {
+  width: 1373px;
+  height: 206px;
+}
+.agregar1,
+.bg3,
+.icon {
+  position: absolute;
+}
+.icon {
+  top: 5px;
+  left: 0;
+  width: 16.2px;
+  height: 16.2px;
+}
+.agregar1 {
+  top: 0;
+  left: 32.2px;
+}
+.content {
+  width: 106.2px;
+  position: relative;
+  height: 27px;
+}
+.agregar {
+  position: absolute;
+  top: 109px;
+  left: 1138px;
+  box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
+  border-radius: var(--br-11xl);
+  background-color: var(--color-text);
+  width: 180px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-24xl);
+  box-sizing: border-box;
+}
+.clonarDesde1,
+.vectorIcon21 {
+  position: absolute;
+  top: 0;
+  left: 22.1px;
+}
+.vectorIcon21 {
+  top: 4.5px;
+  left: 0;
+  width: 18.1px;
+  height: 18.1px;
+  object-fit: contain;
+}
+.content1 {
+  width: 144.1px;
+  position: relative;
+  height: 27px;
+}
+.clonarDesde {
+  position: absolute;
+  top: 109px;
+  left: 911px;
+  box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-text);
+  width: 180px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-24xl);
+  box-sizing: border-box;
+}
+.clonarHacia1,
+.vectorIcon22 {
+  position: absolute;
+  top: 0;
+  left: 23.6px;
+}
+.vectorIcon22 {
+  top: 4.5px;
+  left: 0;
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+.content2 {
+  width: 140.6px;
+  position: relative;
+  height: 27px;
+}
+.clonarHacia {
+  position: absolute;
+  top: 109px;
+  left: 684px;
+  box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-text);
+  width: 180px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-24xl);
+  box-sizing: border-box;
+}
+.searchIcon {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buscar,
+.searchIcon {
+  position: relative;
+}
+.searchParent {
+  width: 225px;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-2);
+  box-sizing: border-box;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 17px var(--padding-xl);
+  gap: 13px;
+}
+.dateChild,
+.searchBar {
+  position: absolute;
+  box-sizing: border-box;
+}
+.searchBar {
+  top: 124px;
+  left: calc(50% - 458.5px);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white1);
+  width: 224px;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) var(--padding-13xl) var(--padding-11xs) 0;
+  color: var(--color-gray-3);
+}
+.dateChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  border: 1px solid var(--color-gray-2);
+  width: 136.5px;
+  height: 50px;
+}
+.div13 {
+  position: absolute;
+  top: 12px;
+  left: 18px;
+}
+.materialSymbolskeyboardArroIcon {
+  position: absolute;
+  height: 64%;
+  width: 23.44%;
+  top: 22%;
+  right: 12.82%;
+  bottom: 14%;
+  left: 63.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.date {
+  position: absolute;
+  top: 107px;
+  left: 57px;
+  width: 136.5px;
+  height: 50px;
+  font-size: var(--font-size-xl);
+  color: var(--color-text);
+}
+.titleChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-purple);
+  width: 1373px;
+  height: 60px;
+}
+.cursos1b1 {
+  position: absolute;
+  top: 13px;
+  left: 57px;
+  display: inline-block;
+  width: 697px;
+}
+.education,
+.title {
+  position: absolute;
+  width: 1373px;
+}
+.title {
+  top: 3px;
+  left: 0;
+  height: 60px;
+  font-size: var(--font-size-6xl);
+}
+.education {
+  top: 148px;
+  left: 411px;
+  height: 206px;
+  color: var(--color-white1);
+}
+.cursos1b {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-background);
+  height: 1182px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-text);
+  font-family: var(--text-text-regular-1);
+}

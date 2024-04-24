@@ -1,0 +1,159 @@
+.imageChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 960px;
+  height: 1182px;
+  object-fit: cover;
+}
+.imageItem {
+  background-color: rgba(34, 34, 34, 0.4);
+}
+.image,
+.imageItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 960px;
+  height: 1182px;
+}
+.labelText {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.stateLayer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px var(--padding-5xl);
+}
+.admin,
+.button {
+  position: absolute;
+}
+.button {
+  top: 356px;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-purple);
+  width: 545px;
+  height: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-white1);
+}
+.admin {
+  top: 10px;
+  left: 50px;
+}
+.communicationMail {
+  position: absolute;
+  top: 8px;
+  left: 9px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.adminParent,
+.formChild {
+  position: absolute;
+  left: 0;
+  border-radius: var(--br-8xs);
+  width: 536px;
+  height: 40px;
+  overflow: hidden;
+}
+.adminParent {
+  top: 84px;
+  border: 1px solid #bfbfbf;
+  box-sizing: border-box;
+  color: var(--color-silver-100);
+}
+.formChild {
+  top: 204px;
+}
+.contrasea,
+.recordar,
+.usuario {
+  position: absolute;
+  top: 52px;
+  left: 0;
+}
+.contrasea,
+.recordar {
+  top: 172px;
+}
+.recordar {
+  top: 252px;
+  left: 31px;
+  color: #434;
+}
+.formItem {
+  top: 255.5px;
+  left: -0.5px;
+  border: 1px solid #ab91ff;
+  box-sizing: border-box;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+.form,
+.formItem,
+.login1 {
+  position: absolute;
+}
+.login1 {
+  top: 0;
+  left: 0;
+  font-size: 32px;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.form {
+  top: 534px;
+  left: 1161px;
+  width: 545px;
+  height: 412px;
+}
+.bienvenidoAlPanel {
+  position: absolute;
+  top: 168px;
+  left: 0;
+}
+.interschoolLogoAzul1Icon {
+  position: absolute;
+  top: 0;
+  left: 194px;
+  width: 149px;
+  height: 123px;
+  overflow: hidden;
+}
+.header {
+  position: absolute;
+  top: 196px;
+  left: 1176px;
+  width: 536px;
+  height: 204px;
+  text-align: left;
+  font-size: var(--heading-heading-3-size);
+  color: var(--color-silver-100);
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-background);
+  height: 1182px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-100);
+  font-family: var(--text-text-regular-1);
+}

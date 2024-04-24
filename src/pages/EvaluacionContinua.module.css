@@ -1,0 +1,562 @@
+.background {
+  position: absolute;
+  top: 156px;
+  left: 428px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-thistle-100);
+  width: 1418px;
+  height: 992px;
+  display: none;
+}
+.placeholder {
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 84.62%;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-2);
+}
+.admin,
+.mayraZ,
+.placeholder {
+  position: absolute;
+}
+.mayraZ {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.admin {
+  top: 54.35%;
+  left: 28.13%;
+  color: var(--color-gray-3);
+}
+.name {
+  height: 76.67%;
+  width: 16.41%;
+  top: 11.67%;
+  right: 21.54%;
+  bottom: 11.67%;
+  left: 62.05%;
+}
+.bg,
+.iconKey,
+.name {
+  position: absolute;
+}
+.bg {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white1);
+}
+.iconKey {
+  height: 45%;
+  width: 40%;
+  top: 28.33%;
+  right: 30%;
+  bottom: 26.67%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.contrasea {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 44.36%;
+  bottom: 0;
+  left: 40.26%;
+}
+.iconCalendarCheck {
+  position: absolute;
+  height: 46.83%;
+  width: 36.67%;
+  top: 28.33%;
+  right: 31.67%;
+  bottom: 24.83%;
+  left: 31.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.disponibilidad,
+.iconInbox {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 64.87%;
+  bottom: 0;
+  left: 19.74%;
+}
+.iconInbox {
+  height: 30%;
+  width: 40%;
+  top: 35%;
+  right: 30%;
+  bottom: 35%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.inbox {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 84.62%;
+  bottom: 0;
+  left: 0;
+}
+.background1,
+.sideMenu {
+  position: absolute;
+  height: 5.08%;
+  width: 21.57%;
+  top: 4.91%;
+  right: 0;
+  bottom: 90.02%;
+  left: 78.43%;
+}
+.background1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-purple);
+}
+.groupChild,
+.scolarpanel {
+  position: absolute;
+  top: 11.76%;
+  left: 29.27%;
+}
+.groupChild {
+  height: 94.12%;
+  width: 100%;
+  top: 5.88%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-base);
+  background-color: var(--color-orange);
+}
+.i,
+.rectangleParent {
+  position: absolute;
+  top: 0;
+}
+.i {
+  height: 86.27%;
+  width: 27.08%;
+  left: 37.5%;
+  display: inline-block;
+}
+.rectangleParent {
+  height: 100%;
+  width: 19.51%;
+  right: 80.49%;
+  bottom: 0;
+  left: 0;
+  font-size: var(--heading-heading-1-size);
+}
+.footer {
+  position: absolute;
+  height: 4.31%;
+  width: 68.33%;
+  top: 91.79%;
+  right: 15%;
+  bottom: 3.89%;
+  left: 16.67%;
+}
+.dashboard1,
+.homeIcon {
+  flex: 1;
+  position: relative;
+}
+.homeIcon {
+  max-width: 100%;
+  overflow: hidden;
+  height: 30px;
+}
+.dashboard1 {
+  font-weight: 500;
+}
+.dashboard {
+  align-self: stretch;
+  filter: var(--shadow);
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.studentIcon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.email {
+  position: relative;
+  font-weight: 500;
+}
+.students {
+  align-self: stretch;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.iconPdfFile {
+  width: 21px;
+  position: relative;
+  height: 28px;
+}
+.food,
+.list {
+  display: flex;
+  justify-content: flex-start;
+}
+.food {
+  align-self: stretch;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  background-color: var(--color-background);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-5xl);
+  color: var(--color-purple);
+}
+.list {
+  position: absolute;
+  height: 76.14%;
+  width: 87.78%;
+  top: 10.15%;
+  right: 0;
+  bottom: 13.71%;
+  left: 12.22%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--text-text-regular-1-size);
+  color: var(--color-gray-2);
+}
+.e,
+.escuelaBenitoJuarez {
+  position: absolute;
+  height: 64.71%;
+  width: 78.01%;
+  top: 25.49%;
+  left: 21.99%;
+  display: inline-block;
+}
+.e {
+  height: 86.27%;
+  width: 41.67%;
+  top: 0;
+  left: 29.17%;
+}
+.logo,
+.rectangleGroup {
+  position: absolute;
+  height: 100%;
+  width: 16.49%;
+  top: 0;
+  right: 83.51%;
+  bottom: 0;
+  left: 0;
+  font-size: var(--heading-heading-1-size);
+}
+.logo {
+  height: 4.31%;
+  width: 80.83%;
+  top: 3.98%;
+  right: 10.83%;
+  bottom: 91.71%;
+  left: 8.33%;
+  font-size: var(--font-size-xl);
+}
+.component1,
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sidebar {
+  height: 100%;
+  width: 19.91%;
+  right: 80.09%;
+  bottom: 0;
+  font-size: var(--font-size-9xl);
+  color: var(--color-white1);
+}
+.component1 {
+  width: 1808px;
+  height: 1182px;
+}
+.bg3,
+.titleChild {
+  width: 686px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white1);
+  height: 681px;
+}
+.titleChild {
+  width: 685.7px;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-purple);
+  height: 60px;
+}
+.evaluacinContinua {
+  width: 660.1px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  margin-left: -647px;
+}
+.frame2,
+.title {
+  width: 698px;
+  display: flex;
+  flex-direction: row;
+}
+.title {
+  height: 60px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: -686px;
+}
+.frame2 {
+  height: 681px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 12px 0 0;
+  box-sizing: border-box;
+}
+.div {
+  position: relative;
+}
+.materialSymbolskeyboardArroIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.input {
+  width: 180px;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-gray-2);
+  box-sizing: border-box;
+  height: 36px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-6xs) var(--padding-smi) var(--padding-6xs)
+    var(--padding-mini);
+  gap: 97px;
+  font-size: var(--font-size-smi);
+}
+.ciclo,
+.frame4,
+.input,
+.input1 {
+  display: flex;
+  justify-content: flex-start;
+}
+.ciclo {
+  width: 180px;
+  height: 74px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+}
+.frame4,
+.input1 {
+  flex-direction: row;
+}
+.input1 {
+  width: 180px;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-gray-2);
+  box-sizing: border-box;
+  height: 36px;
+  align-items: flex-start;
+  padding: var(--padding-6xs) var(--padding-smi) var(--padding-6xs)
+    var(--padding-mini);
+  gap: var(--gap-38xl);
+  font-size: var(--font-size-smi);
+}
+.frame4 {
+  width: 590px;
+  height: 74px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  gap: var(--gap-6xl);
+}
+.frame3,
+.input7 {
+  display: flex;
+  flex-direction: column;
+}
+.frame3 {
+  width: 590px;
+  height: 218px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-51xl);
+}
+.input7 {
+  width: 180px;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-gray-2);
+  box-sizing: border-box;
+  height: 36px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-6xs) var(--padding-mini);
+  font-size: var(--font-size-smi);
+}
+.clonarConfiguracin {
+  width: 155px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.btnConfiguracion {
+  width: 180px;
+  border-radius: var(--br-8xs);
+  border: 2px solid var(--color-purple);
+  box-sizing: border-box;
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0 var(--padding-4xs);
+}
+.agregarAspecto {
+  width: 132px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  height: 26px;
+  flex-shrink: 0;
+}
+.btnAspecto {
+  width: 180px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-dodgerblue);
+  height: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: var(--padding-4xs) var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-mini);
+  color: var(--color-white1);
+}
+.datosConsulta,
+.frame6,
+.frame8 {
+  width: 590px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame8 {
+  height: 45px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: row;
+  gap: 230px;
+  font-size: var(--text-text-regular-2-size);
+  color: var(--color-gray-200);
+}
+.datosConsulta,
+.frame6 {
+  flex-direction: column;
+}
+.frame6 {
+  height: 214px;
+  overflow: hidden;
+  flex-shrink: 0;
+  gap: 95px;
+}
+.datosConsulta {
+  height: 502px;
+  gap: var(--gap-51xl);
+  position: undefined;
+  margin-left: 38px;
+  margin-top: -566px;
+  font-size: var(--font-size-mini);
+  color: var(--color-text);
+}
+.education,
+.frame1 {
+  width: 698px;
+  height: 681px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame1 {
+  height: 819px;
+  overflow: hidden;
+  flex-shrink: 0;
+  align-items: center;
+}
+.evaluacionContinua,
+.frame {
+  height: 1182px;
+  overflow: hidden;
+}
+.frame {
+  position: absolute;
+  top: 0;
+  left: 466px;
+  width: 698px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--heading-heading-3-size);
+  color: var(--color-white1);
+}
+.evaluacionContinua {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-background);
+  text-align: left;
+  font-size: var(--text-text-regular-2-size);
+  color: var(--color-text);
+  font-family: var(--text-text-regular-1);
+}
