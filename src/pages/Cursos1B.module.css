@@ -141,7 +141,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-base);
-  background-color: var(--color-orange);
+  background-color: var(--color-orange1);
 }
 .i,
 .rectangleParent {
@@ -299,10 +299,10 @@
 .div {
   position: absolute;
   top: 17px;
-  left: 13px;
+  left: 17px;
 }
 .b {
-  left: 83px;
+  left: 86px;
   display: inline-block;
   width: 27px;
 }
@@ -311,14 +311,14 @@
 .matemticas {
   position: absolute;
   top: 17px;
-  left: 211px;
+  left: 215px;
 }
 .bMat1,
 .matemticas {
-  left: 394px;
+  left: 412px;
 }
 .matemticas {
-  left: 652px;
+  left: 675px;
 }
 .placeholder1 {
   position: absolute;
@@ -333,9 +333,9 @@
 .vectorIcon {
   position: absolute;
   height: 45%;
-  width: 45%;
+  width: 44.25%;
   top: 27.5%;
-  right: 27.5%;
+  right: 28.25%;
   bottom: 27.5%;
   left: 27.5%;
   max-width: 100%;
@@ -345,11 +345,199 @@
 .nuevo {
   position: absolute;
   top: 12px;
-  left: calc(50% + 365px);
+  left: calc(50% + 396.5px);
   width: 40px;
   height: 40px;
 }
 .vectorIcon1 {
+  position: absolute;
+  height: 50%;
+  width: 42%;
+  top: 25%;
+  right: 28%;
+  bottom: 25%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.eliminar {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 341.5px);
+  width: 40px;
+  height: 40px;
+}
+.vectorIcon2 {
+  height: 45%;
+  width: 49.25%;
+  top: 27.5%;
+  right: 25.75%;
+  bottom: 27.5%;
+  left: 25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.editar,
+.parent,
+.vectorIcon2 {
+  position: absolute;
+}
+.editar {
+  top: 12px;
+  left: calc(50% + 286.5px);
+  width: 40px;
+  height: 40px;
+}
+.parent {
+  top: 18px;
+  left: 11px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1331px;
+  height: 64px;
+}
+.div1 {
+  left: 21px;
+}
+.alg1,
+.b1,
+.bAlg1,
+.div1,
+.lgebra {
+  position: absolute;
+  top: 17px;
+}
+.b1 {
+  left: 87px;
+  display: inline-block;
+  width: 27px;
+}
+.alg1,
+.bAlg1,
+.lgebra {
+  left: 218px;
+}
+.bAlg1,
+.lgebra {
+  left: 414px;
+}
+.lgebra {
+  left: 678px;
+}
+.eliminar1,
+.nuevo1 {
+  top: 12px;
+  width: 40px;
+  height: 40px;
+}
+.nuevo1 {
+  position: absolute;
+  left: calc(50% + 397.5px);
+}
+.eliminar1 {
+  left: calc(50% + 342.5px);
+}
+.editar1,
+.eliminar1,
+.group {
+  position: absolute;
+}
+.editar1 {
+  top: 12px;
+  left: calc(50% + 287.5px);
+  width: 40px;
+  height: 40px;
+}
+.group {
+  top: 82px;
+  left: 11px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1331px;
+  height: 64px;
+}
+.div2 {
+  left: 24px;
+}
+.b2,
+.div2,
+.log1 {
+  position: absolute;
+  top: 17px;
+}
+.b2 {
+  left: 90px;
+  display: inline-block;
+  width: 27px;
+}
+.log1 {
+  left: 219px;
+}
+.bLog1,
+.container,
+.matemticas1 {
+  position: absolute;
+  top: 17px;
+  left: 418px;
+}
+.container,
+.matemticas1 {
+  left: 676px;
+}
+.container {
+  top: 146px;
+  left: 11px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1331px;
+  height: 64px;
+}
+.b3,
+.div3 {
+  position: absolute;
+  top: 17px;
+  left: 23px;
+}
+.b3 {
+  left: 91px;
+  display: inline-block;
+  width: 27px;
+}
+.bProg1,
+.prog1,
+.vectorIcon9 {
+  position: absolute;
+  top: 17px;
+  left: 224px;
+}
+.bProg1,
+.vectorIcon9 {
+  left: 420px;
+}
+.vectorIcon9 {
+  height: 45%;
+  width: 45%;
+  top: 27.5%;
+  right: 27.5%;
+  bottom: 27.5%;
+  left: 27.5%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.nuevo3 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 389px);
+  width: 40px;
+  height: 40px;
+}
+.vectorIcon10 {
   position: absolute;
   height: 50%;
   width: 42.5%;
@@ -361,14 +549,14 @@
   overflow: hidden;
   max-height: 100%;
 }
-.eliminar {
+.eliminar3 {
   position: absolute;
   top: 12px;
-  left: calc(50% + 310px);
+  left: calc(50% + 334px);
   width: 40px;
   height: 40px;
 }
-.vectorIcon2 {
+.vectorIcon11 {
   position: absolute;
   height: 45%;
   width: 50%;
@@ -380,60 +568,157 @@
   overflow: hidden;
   max-height: 100%;
 }
-.editar {
+.editar3 {
   position: absolute;
   top: 12px;
-  left: calc(50% + 255px);
+  left: calc(50% + 279px);
   width: 40px;
   height: 40px;
 }
-.container,
-.frameDiv,
-.group,
-.parent,
-.parent1,
-.parent2,
-.parent3 {
+.frameDiv {
   position: absolute;
-  top: 8px;
+  top: 210px;
   left: 11px;
-  border-radius: var(--br-8xs);
   background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
   width: 1350px;
   height: 64px;
 }
-.container,
-.frameDiv,
-.group,
-.parent1,
-.parent2,
-.parent3 {
-  top: 92px;
+.bMat11,
+.mat11 {
+  position: absolute;
+  top: 17px;
+  left: 226px;
 }
-.container,
-.frameDiv,
-.parent1,
-.parent2,
-.parent3 {
-  top: 176px;
+.bMat11 {
+  left: 422px;
 }
-.frameDiv,
-.parent1,
-.parent2,
-.parent3 {
-  top: 260px;
+.editar4,
+.eliminar4,
+.nuevo4 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 390px);
+  width: 40px;
+  height: 40px;
 }
-.parent1,
-.parent2,
-.parent3 {
-  top: 344px;
+.editar4,
+.eliminar4 {
+  left: calc(50% + 335px);
 }
-.parent2,
-.parent3 {
-  top: 428px;
+.editar4 {
+  left: calc(50% + 280px);
 }
-.parent3 {
-  top: 512px;
+.parent1 {
+  position: absolute;
+  top: 274px;
+  left: 11px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1350px;
+  height: 64px;
+}
+.div5 {
+  left: 25px;
+}
+.b5,
+.bMat12,
+.div5,
+.mat12 {
+  position: absolute;
+  top: 17px;
+}
+.b5 {
+  left: 93px;
+  display: inline-block;
+  width: 27px;
+}
+.bMat12,
+.mat12 {
+  left: 230px;
+}
+.bMat12 {
+  left: 423px;
+}
+.editar5,
+.eliminar5,
+.nuevo5 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 392px);
+  width: 40px;
+  height: 40px;
+}
+.editar5,
+.eliminar5 {
+  left: calc(50% + 337px);
+}
+.editar5 {
+  left: calc(50% + 282px);
+}
+.parent2 {
+  position: absolute;
+  top: 338px;
+  left: 11px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1350px;
+  height: 64px;
+}
+.div6 {
+  left: 26px;
+}
+.b6,
+.bMat13,
+.div6 {
+  position: absolute;
+  top: 17px;
+}
+.b6 {
+  left: 92px;
+  display: inline-block;
+  width: 27px;
+}
+.bMat13 {
+  left: 424px;
+}
+.editar6,
+.eliminar6,
+.nuevo6 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 393px);
+  width: 40px;
+  height: 40px;
+}
+.editar6,
+.eliminar6 {
+  left: calc(50% + 338px);
+}
+.editar6 {
+  left: calc(50% + 283px);
+}
+.parent3,
+.parent4,
+.parent5 {
+  position: absolute;
+  top: 402px;
+  left: 11px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1350px;
+  height: 64px;
+}
+.parent4,
+.parent5 {
+  top: 466px;
+}
+.parent5 {
+  top: 530px;
 }
 .dropdownIcon {
   width: 32px;
@@ -449,18 +734,18 @@
   left: calc(50% - 25px);
   box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
   border-radius: var(--br-21xl);
-  background-color: var(--color-purple);
+  background-color: var(--color-cornflowerblue);
   width: 50px;
   height: 50px;
 }
-.div8 {
+.div10 {
   position: absolute;
   top: 11px;
   left: calc(50% - 3px);
   display: inline-block;
   width: 6.9px;
 }
-.div7 {
+.div9 {
   width: 50px;
   position: relative;
   height: 50px;
@@ -471,19 +756,19 @@
   top: 0;
   left: calc(50% - 25.5px);
   border-radius: var(--br-21xl);
-  border: 2px solid var(--color-gray-2);
+  border: 2px solid var(--color-cornflowerblue);
   box-sizing: border-box;
   width: 51px;
   height: 51px;
 }
-.div10 {
+.div12 {
   position: absolute;
   top: 12px;
   left: calc(50% - 5.5px);
   display: inline-block;
   width: 10.9px;
 }
-.div9 {
+.div11 {
   width: 51px;
   position: relative;
   height: 51px;
@@ -498,58 +783,67 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
+.frameParent,
 .pagination {
   position: absolute;
-  top: 648px;
-  left: 1059px;
+  top: 629px;
+  left: 1062px;
   width: 280px;
   height: 51px;
-  color: var(--color-gray-2);
 }
 .frameParent {
-  position: absolute;
-  top: 40px;
-  left: -29px;
-  width: 1361px;
+  top: 34px;
+  left: -30px;
+  width: 1342px;
   height: 699px;
   overflow-y: auto;
 }
-.idCurso,
-.idGrupo,
-.idMateria,
-.materia {
+.menuTableChild {
   position: absolute;
-  top: -3px;
-  left: 51px;
-  font-weight: 600;
+  top: -2px;
+  left: -37px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1330px;
+  height: 54px;
 }
-.idCurso,
-.idMateria,
-.materia {
-  left: 194px;
-}
-.idCurso,
-.materia {
-  left: 390px;
-}
-.materia {
-  left: 647px;
+.idMateria {
+  position: absolute;
+  top: 14px;
+  left: 171px;
+  font-weight: 300;
 }
 .acciones,
+.idCurso,
+.idGrupo,
+.materia {
+  position: absolute;
+  top: 13px;
+  left: 39px;
+  font-weight: 300;
+}
+.acciones,
+.idCurso,
+.materia {
+  top: 14px;
+  left: 378px;
+}
+.acciones,
+.materia {
+  top: 12px;
+  left: 636px;
+}
+.acciones {
+  left: 916px;
+}
 .menuTable {
   position: absolute;
   top: 0;
-}
-.acciones {
-  left: 934px;
-  font-weight: 600;
-  font-family: var(--font-inter);
-}
-.menuTable {
   left: 19px;
   width: 1342px;
   height: 24px;
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-mini);
 }
 .table {
   position: absolute;
@@ -603,7 +897,7 @@
   left: 1138px;
   box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
   border-radius: var(--br-11xl);
-  background-color: var(--color-text);
+  background-color: var(--color-cornflowerblue);
   width: 180px;
   height: 50px;
   display: flex;
@@ -614,12 +908,12 @@
   box-sizing: border-box;
 }
 .clonarDesde1,
-.vectorIcon21 {
+.vectorIcon27 {
   position: absolute;
   top: 0;
   left: 22.1px;
 }
-.vectorIcon21 {
+.vectorIcon27 {
   top: 4.5px;
   left: 0;
   width: 18.1px;
@@ -637,7 +931,7 @@
   left: 911px;
   box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
   border-radius: var(--br-21xl);
-  background-color: var(--color-text);
+  background-color: var(--color-cornflowerblue);
   width: 180px;
   height: 50px;
   display: flex;
@@ -648,12 +942,12 @@
   box-sizing: border-box;
 }
 .clonarHacia1,
-.vectorIcon22 {
+.vectorIcon28 {
   position: absolute;
   top: 0;
   left: 23.6px;
 }
-.vectorIcon22 {
+.vectorIcon28 {
   top: 4.5px;
   left: 0;
   width: 18px;
@@ -671,7 +965,7 @@
   left: 684px;
   box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
   border-radius: var(--br-21xl);
-  background-color: var(--color-text);
+  background-color: #f5aa1a;
   width: 180px;
   height: 50px;
   display: flex;
@@ -731,7 +1025,7 @@
   width: 136.5px;
   height: 50px;
 }
-.div13 {
+.div15 {
   position: absolute;
   top: 12px;
   left: 18px;
@@ -762,7 +1056,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-xl) var(--br-xl) 0 0;
-  background-color: var(--color-purple);
+  background-color: var(--color-cornflowerblue);
   width: 1373px;
   height: 60px;
 }

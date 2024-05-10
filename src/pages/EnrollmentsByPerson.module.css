@@ -141,7 +141,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-base);
-  background-color: var(--color-orange);
+  background-color: var(--color-orange1);
 }
 .i,
 .rectangleParent {
@@ -295,32 +295,32 @@
   height: 1182px;
 }
 .div,
-.div1 {
+.div1,
+.mat1 {
   position: absolute;
   top: 17px;
-  left: 13px;
+  left: 22px;
 }
-.div1 {
-  left: 83px;
+.div1,
+.mat1 {
+  left: 90px;
 }
-.mat1,
+.mat1 {
+  left: 221px;
+}
 .matemticas,
 .student,
 .x {
   position: absolute;
+  top: 18px;
+  left: 413px;
+}
+.student,
+.x {
+  left: 668px;
+}
+.x {
   top: 17px;
-  left: 217px;
-}
-.matemticas,
-.student,
-.x {
-  left: 411px;
-}
-.student,
-.x {
-  left: 664px;
-}
-.x {
   left: 911px;
 }
 .placeholder1 {
@@ -348,7 +348,7 @@
 .nuevo {
   position: absolute;
   top: 12px;
-  left: calc(50% + 513.5px);
+  left: calc(50% + 565.5px);
   width: 40px;
   height: 40px;
 }
@@ -365,29 +365,108 @@
   max-height: 100%;
 }
 .eliminar {
-  position: absolute;
   top: 12px;
-  left: calc(50% + 445.5px);
+  left: calc(50% + 497.5px);
   width: 40px;
   height: 40px;
 }
-.container,
-.group,
+.div2,
+.eliminar,
 .parent {
   position: absolute;
+}
+.parent {
   top: 8px;
   left: 0;
-  border-radius: var(--br-8xs);
   background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
   width: 1327px;
   height: 64px;
 }
-.container,
+.div2 {
+  top: 17px;
+  left: 23px;
+}
+.div3,
+.mat11,
+.student1 {
+  position: absolute;
+  top: 18px;
+  left: 91px;
+}
+.mat11,
+.student1 {
+  left: 222px;
+}
+.student1 {
+  top: 17px;
+  left: 670px;
+}
+.eliminar1,
+.nuevo1 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 566.5px);
+  width: 40px;
+  height: 40px;
+}
+.eliminar1 {
+  left: calc(50% + 498.5px);
+}
 .group {
-  top: 100px;
+  position: absolute;
+  top: 72px;
+  left: 0;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1327px;
+  height: 64px;
+}
+.div4,
+.div5 {
+  position: absolute;
+  top: 17px;
+  left: 26px;
+}
+.div5 {
+  left: 92px;
+}
+.mat12,
+.matemticas2,
+.student2 {
+  position: absolute;
+  top: 17px;
+  left: 225px;
+}
+.matemticas2,
+.student2 {
+  left: 417px;
+}
+.student2 {
+  left: 673px;
+}
+.eliminar2,
+.nuevo2 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 568.5px);
+  width: 40px;
+  height: 40px;
+}
+.eliminar2 {
+  left: calc(50% + 500.5px);
 }
 .container {
-  top: 192px;
+  position: absolute;
+  top: 136px;
+  left: 0;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1327px;
+  height: 64px;
 }
 .div6,
 .div7,
@@ -395,29 +474,31 @@
 .matemticas3 {
   position: absolute;
   top: 17px;
-  left: 23px;
+  left: 38px;
 }
 .div7,
 .mat13,
 .matemticas3 {
-  left: 94px;
+  left: 103px;
 }
 .mat13,
 .matemticas3 {
-  left: 228px;
+  left: 238px;
 }
 .matemticas3 {
-  left: 426px;
+  top: 18px;
+  left: 427px;
 }
 .student3,
 .vectorIcon6,
 .x3 {
   position: absolute;
-  top: 17px;
-  left: 678px;
+  top: 18px;
+  left: 682px;
 }
 .vectorIcon6,
 .x3 {
+  top: 17px;
   left: 919px;
 }
 .vectorIcon6 {
@@ -434,7 +515,7 @@
 .nuevo3 {
   position: absolute;
   top: 12px;
-  left: calc(50% + 524.5px);
+  left: calc(50% + 574.5px);
   width: 40px;
   height: 40px;
 }
@@ -453,29 +534,112 @@
 .eliminar3 {
   position: absolute;
   top: 12px;
-  left: calc(50% + 457.5px);
+  left: calc(50% + 507.5px);
   width: 40px;
   height: 40px;
 }
-.frameDiv,
-.parent1,
-.parent2 {
+.frameDiv {
   position: absolute;
-  top: 284px;
+  top: 200px;
   left: -10px;
-  border-radius: var(--br-8xs);
   background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
   width: 1337px;
   height: 64px;
 }
-.parent1,
-.parent2 {
-  top: 376px;
-  left: 0;
-  width: 1327px;
+.div8,
+.div9 {
+  position: absolute;
+  top: 17px;
+  left: 32px;
 }
-.parent2 {
-  top: 468px;
+.div9 {
+  left: 98px;
+}
+.mat14,
+.matemticas4,
+.student4 {
+  position: absolute;
+  top: 17px;
+  left: 230px;
+}
+.matemticas4,
+.student4 {
+  left: 419px;
+}
+.student4 {
+  left: 674px;
+}
+.eliminar4,
+.nuevo4 {
+  position: absolute;
+  top: 14px;
+  left: calc(50% + 571.5px);
+  width: 40px;
+  height: 40px;
+}
+.eliminar4 {
+  left: calc(50% + 503.5px);
+}
+.parent1 {
+  position: absolute;
+  top: 264px;
+  left: 0;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1327px;
+  height: 64px;
+}
+.div10,
+.div11 {
+  position: absolute;
+  top: 17px;
+  left: 34px;
+}
+.div11 {
+  left: 101px;
+}
+.matemticas5,
+.student5 {
+  position: absolute;
+  top: 16px;
+  left: 420px;
+}
+.student5 {
+  top: 18px;
+  left: 677px;
+}
+.eliminar5,
+.nuevo5 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 573.5px);
+  width: 40px;
+  height: 40px;
+}
+.eliminar5 {
+  left: calc(50% + 505.5px);
+}
+.parent2,
+.parent3,
+.parent4 {
+  position: absolute;
+  top: 328px;
+  left: 0;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1327px;
+  height: 64px;
+}
+.parent3,
+.parent4 {
+  top: 392px;
+}
+.parent4 {
+  top: 456px;
 }
 .dropdownIcon {
   width: 32px;
@@ -491,18 +655,18 @@
   left: calc(50% - 25px);
   box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
   border-radius: var(--br-21xl);
-  background-color: var(--color-purple);
+  background-color: var(--color-cornflowerblue);
   width: 50px;
   height: 50px;
 }
-.div13 {
+.div17 {
   position: absolute;
   top: 11px;
   left: calc(50% - 3px);
   display: inline-block;
   width: 6.9px;
 }
-.div12 {
+.div16 {
   width: 50px;
   position: relative;
   height: 50px;
@@ -513,19 +677,19 @@
   top: 0;
   left: calc(50% - 25.5px);
   border-radius: var(--br-21xl);
-  border: 2px solid var(--color-gray-2);
+  border: 2px solid var(--color-cornflowerblue);
   box-sizing: border-box;
   width: 51px;
   height: 51px;
 }
-.div15 {
+.div19 {
   position: absolute;
   top: 12px;
   left: calc(50% - 5.5px);
   display: inline-block;
   width: 10.9px;
 }
-.div14 {
+.div18 {
   width: 51px;
   position: relative;
   height: 51px;
@@ -540,80 +704,91 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
+.frameParent,
 .pagination {
   position: absolute;
   top: 564px;
   left: 1047px;
   width: 280px;
   height: 51px;
-  color: var(--color-gray-2);
 }
 .frameParent {
-  position: absolute;
   top: 40px;
   left: -5px;
   width: 1342px;
   height: 630px;
   overflow-y: auto;
 }
-.ciclo,
-.div18 {
+.groupInner {
   position: absolute;
-  top: -3px;
-  left: 65px;
-  font-weight: 600;
-}
-.div18 {
   top: 0;
   left: 0;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1329px;
+  height: 50px;
+}
+.div22 {
+  position: absolute;
+  top: 16px;
+  left: 18px;
+  font-weight: 300;
+}
+.acciones,
+.blockId,
+.ciclo,
+.curso,
+.materiaId,
+.rol {
+  position: absolute;
+  top: 16px;
+  left: 85px;
+  font-weight: 300;
 }
 .acciones,
 .blockId,
 .curso,
 .materiaId,
 .rol {
-  position: absolute;
-  top: -3px;
-  left: 194px;
-  font-weight: 600;
+  left: 216px;
 }
 .acciones,
 .blockId,
 .curso,
 .rol {
-  left: 390px;
+  left: 410px;
 }
 .acciones,
 .blockId,
 .rol {
-  left: 647px;
+  left: 667px;
 }
 .acciones,
 .blockId {
-  left: 875px;
+  left: 899px;
 }
 .acciones {
-  top: 0;
-  left: 1109px;
-  font-family: var(--font-inter);
+  left: 1162px;
 }
-.menuTable {
-  top: 0;
-  left: -5px;
-  width: 1342px;
-  height: 24px;
-  font-size: var(--font-size-xl);
+.rectangleContainer {
+  position: absolute;
+  top: -2px;
+  left: -4px;
+  width: 1329px;
+  height: 50px;
+  font-size: var(--font-size-mini);
+  color: var(--color-text);
 }
 .bg4,
-.menuTable,
 .table {
   position: absolute;
 }
 .table {
-  top: 471px;
-  left: 446px;
+  top: 424px;
+  left: 417px;
   width: 1361px;
-  height: 739px;
+  height: 694px;
   font-size: var(--text-text-regular-1-size);
   color: var(--color-gray-300);
 }
@@ -648,7 +823,7 @@
   left: 1092px;
   box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
   border-radius: var(--br-11xl);
-  background-color: var(--color-dodgerblue);
+  background-color: var(--color-orange-100);
   width: 180px;
   height: 50px;
   display: flex;
@@ -665,7 +840,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-xl) var(--br-xl) 0 0;
-  background-color: var(--color-purple);
+  background-color: var(--color-cornflowerblue);
   width: 1373px;
   height: 60px;
 }
@@ -822,7 +997,7 @@
   width: 101px;
   height: 37px;
 }
-.div19 {
+.div23 {
   position: absolute;
   top: 5px;
   left: 11px;

@@ -129,19 +129,19 @@ const Grupos: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.group}>
-            <div className={styles.div}>1</div>
-            <div className={styles.a}>1A</div>
-            <div className={styles.a1}>1A</div>
-            <div className={styles.secundaria}>Secundaria</div>
-            <div className={styles.eliminar}>
+            <div className={styles.div1}>2</div>
+            <div className={styles.a2}>1A</div>
+            <div className={styles.a3}>1A</div>
+            <div className={styles.secundaria1}>Secundaria</div>
+            <div className={styles.eliminar1}>
               <div className={styles.placeholder1} />
               <img className={styles.eliminarIcon} alt="" src="/eliminar.svg" />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar1}>
               <div className={styles.placeholder1} />
               <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
             </div>
-            <div className={styles.visualizar}>
+            <div className={styles.visualizar1}>
               <div className={styles.placeholder1} />
               <img
                 className={styles.visualizarIcon}
@@ -151,19 +151,23 @@ const Grupos: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.container}>
-            <div className={styles.div}>1</div>
-            <div className={styles.a}>1A</div>
-            <div className={styles.a1}>1A</div>
-            <div className={styles.secundaria}>Secundaria</div>
-            <div className={styles.eliminar}>
+            <div className={styles.div2}>3</div>
+            <div className={styles.a4}>1A</div>
+            <div className={styles.a5}>1A</div>
+            <div className={styles.secundaria2}>Secundaria</div>
+            <div className={styles.eliminar2}>
               <div className={styles.placeholder1} />
-              <img className={styles.eliminarIcon} alt="" src="/eliminar.svg" />
+              <img
+                className={styles.eliminarIcon2}
+                alt=""
+                src="/eliminar.svg"
+              />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar2}>
               <div className={styles.placeholder1} />
               <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
             </div>
-            <div className={styles.visualizar}>
+            <div className={styles.visualizar2}>
               <div className={styles.placeholder1} />
               <img
                 className={styles.visualizarIcon}
@@ -173,19 +177,23 @@ const Grupos: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.frameDiv}>
-            <div className={styles.div}>1</div>
-            <div className={styles.a}>1A</div>
-            <div className={styles.a1}>1A</div>
-            <div className={styles.secundaria}>Secundaria</div>
-            <div className={styles.eliminar}>
+            <div className={styles.div3}>4</div>
+            <div className={styles.a6}>1A</div>
+            <div className={styles.a7}>1A</div>
+            <div className={styles.secundaria2}>Secundaria</div>
+            <div className={styles.eliminar3}>
               <div className={styles.placeholder1} />
-              <img className={styles.eliminarIcon} alt="" src="/eliminar.svg" />
+              <img
+                className={styles.eliminarIcon2}
+                alt=""
+                src="/eliminar.svg"
+              />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar3}>
               <div className={styles.placeholder1} />
               <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
             </div>
-            <div className={styles.visualizar}>
+            <div className={styles.visualizar3}>
               <div className={styles.placeholder1} />
               <img
                 className={styles.visualizarIcon}
@@ -195,19 +203,23 @@ const Grupos: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.parent1}>
-            <div className={styles.div}>1</div>
-            <div className={styles.a}>1A</div>
-            <div className={styles.a1}>1A</div>
-            <div className={styles.secundaria}>Secundaria</div>
-            <div className={styles.eliminar}>
+            <div className={styles.div4}>5</div>
+            <div className={styles.a8}>1A</div>
+            <div className={styles.a7}>1A</div>
+            <div className={styles.secundaria2}>Secundaria</div>
+            <div className={styles.eliminar4}>
               <div className={styles.placeholder1} />
-              <img className={styles.eliminarIcon} alt="" src="/eliminar.svg" />
+              <img
+                className={styles.eliminarIcon2}
+                alt=""
+                src="/eliminar.svg"
+              />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar4}>
               <div className={styles.placeholder1} />
               <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
             </div>
-            <div className={styles.visualizar}>
+            <div className={styles.visualizar4}>
               <div className={styles.placeholder1} />
               <img
                 className={styles.visualizarIcon}
@@ -217,19 +229,23 @@ const Grupos: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.parent2}>
-            <div className={styles.div}>1</div>
-            <div className={styles.a}>1A</div>
-            <div className={styles.a1}>1A</div>
-            <div className={styles.secundaria}>Secundaria</div>
-            <div className={styles.eliminar}>
+            <div className={styles.div5}>6</div>
+            <div className={styles.a10}>1A</div>
+            <div className={styles.a11}>1A</div>
+            <div className={styles.secundaria2}>Secundaria</div>
+            <div className={styles.eliminar5}>
               <div className={styles.placeholder1} />
-              <img className={styles.eliminarIcon} alt="" src="/eliminar.svg" />
+              <img
+                className={styles.eliminarIcon2}
+                alt=""
+                src="/eliminar.svg"
+              />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar5}>
               <div className={styles.placeholder1} />
               <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
             </div>
-            <div className={styles.visualizar}>
+            <div className={styles.visualizar5}>
               <div className={styles.placeholder1} />
               <img
                 className={styles.visualizarIcon}
@@ -239,19 +255,75 @@ const Grupos: FunctionComponent = () => {
             </div>
           </div>
           <div className={styles.parent3}>
-            <div className={styles.div}>1</div>
-            <div className={styles.a}>1A</div>
-            <div className={styles.a1}>1A</div>
-            <div className={styles.secundaria}>Secundaria</div>
-            <div className={styles.eliminar}>
+            <div className={styles.div6}>7</div>
+            <div className={styles.a12}>1A</div>
+            <div className={styles.a13}>1A</div>
+            <div className={styles.secundaria2}>Secundaria</div>
+            <div className={styles.eliminar6}>
               <div className={styles.placeholder1} />
-              <img className={styles.eliminarIcon} alt="" src="/eliminar.svg" />
+              <img
+                className={styles.eliminarIcon2}
+                alt=""
+                src="/eliminar.svg"
+              />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar6}>
               <div className={styles.placeholder1} />
               <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
             </div>
-            <div className={styles.visualizar}>
+            <div className={styles.visualizar6}>
+              <div className={styles.placeholder1} />
+              <img
+                className={styles.visualizarIcon}
+                alt=""
+                src="/visualizar.svg"
+              />
+            </div>
+          </div>
+          <div className={styles.parent4}>
+            <div className={styles.div6}>8</div>
+            <div className={styles.a12}>1A</div>
+            <div className={styles.a13}>1A</div>
+            <div className={styles.secundaria2}>Secundaria</div>
+            <div className={styles.eliminar6}>
+              <div className={styles.placeholder1} />
+              <img
+                className={styles.eliminarIcon2}
+                alt=""
+                src="/eliminar.svg"
+              />
+            </div>
+            <div className={styles.editar6}>
+              <div className={styles.placeholder1} />
+              <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
+            </div>
+            <div className={styles.visualizar6}>
+              <div className={styles.placeholder1} />
+              <img
+                className={styles.visualizarIcon}
+                alt=""
+                src="/visualizar.svg"
+              />
+            </div>
+          </div>
+          <div className={styles.parent5}>
+            <div className={styles.div6}>9</div>
+            <div className={styles.a12}>1A</div>
+            <div className={styles.a13}>1A</div>
+            <div className={styles.secundaria2}>Secundaria</div>
+            <div className={styles.eliminar6}>
+              <div className={styles.placeholder1} />
+              <img
+                className={styles.eliminarIcon2}
+                alt=""
+                src="/eliminar.svg"
+              />
+            </div>
+            <div className={styles.editar6}>
+              <div className={styles.placeholder1} />
+              <img className={styles.vectorIcon} alt="" src="/vector11.svg" />
+            </div>
+            <div className={styles.visualizar6}>
               <div className={styles.placeholder1} />
               <img
                 className={styles.visualizarIcon}
@@ -267,17 +339,17 @@ const Grupos: FunctionComponent = () => {
                 alt=""
                 src="/dropdown@2x.png"
               />
-              <div className={styles.div7}>
+              <div className={styles.div9}>
                 <div className={styles.selectedpage} />
-                <div className={styles.div8}>1</div>
+                <div className={styles.div10}>1</div>
               </div>
-              <div className={styles.div9}>
+              <div className={styles.div11}>
                 <div className={styles.background1} />
-                <div className={styles.div10}>2</div>
+                <div className={styles.div12}>2</div>
               </div>
-              <div className={styles.div9}>
+              <div className={styles.div11}>
                 <div className={styles.background1} />
-                <div className={styles.div10}>3</div>
+                <div className={styles.div12}>3</div>
               </div>
               <img
                 className={styles.dropdownIcon}
@@ -288,6 +360,8 @@ const Grupos: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.menuTable}>
+          <div className={styles.menuTableChild} />
+          <div className={styles.div15}>#</div>
           <div className={styles.id}>ID</div>
           <div className={styles.etiqueta}>Etiqueta</div>
           <div className={styles.nivel}>Nivel</div>

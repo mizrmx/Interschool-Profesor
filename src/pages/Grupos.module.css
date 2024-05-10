@@ -141,7 +141,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-base);
-  background-color: var(--color-orange);
+  background-color: var(--color-orange1);
 }
 .i,
 .rectangleParent {
@@ -296,30 +296,28 @@
   font-size: var(--text-text-regular-2-size);
 }
 .div {
-  position: absolute;
-  top: 17px;
-  left: 13px;
+  left: 28px;
   display: inline-block;
-  width: 4px;
+  width: 8px;
 }
 .a,
 .a1,
+.div,
 .secundaria {
   position: absolute;
-  top: 14px;
+  top: 17px;
 }
 .a {
-  left: 127px;
+  left: 131px;
   display: inline-block;
   width: 27px;
 }
 .a1,
 .secundaria {
-  left: 399px;
+  left: 377px;
 }
 .secundaria {
-  top: 13px;
-  left: 668px;
+  left: 667px;
 }
 .placeholder1 {
   position: absolute;
@@ -334,9 +332,9 @@
 .eliminarIcon {
   position: absolute;
   height: 52.5%;
-  width: 40%;
+  width: 39.75%;
   top: 25%;
-  right: 30%;
+  right: 30.25%;
   bottom: 22.5%;
   left: 30%;
   max-width: 100%;
@@ -346,18 +344,18 @@
 .eliminar {
   position: absolute;
   top: 12px;
-  left: calc(50% + 578px);
+  left: calc(50% + 473px);
   width: 40px;
   height: 40px;
 }
 .vectorIcon {
   position: absolute;
   height: 45%;
-  width: 42.5%;
+  width: 42.25%;
   top: 27.5%;
-  right: 30%;
+  right: 27.75%;
   bottom: 27.5%;
-  left: 27.5%;
+  left: 30%;
   max-width: 100%;
   overflow: hidden;
   max-height: 100%;
@@ -365,16 +363,16 @@
 .editar {
   position: absolute;
   top: 12px;
-  left: calc(50% + 513px);
+  left: calc(50% + 408px);
   width: 40px;
   height: 40px;
 }
 .visualizarIcon {
   position: absolute;
   height: 40%;
-  width: 55%;
+  width: 54.75%;
   top: 30%;
-  right: 22.5%;
+  right: 22.75%;
   bottom: 30%;
   left: 22.5%;
   max-width: 100%;
@@ -384,57 +382,313 @@
 .visualizar {
   position: absolute;
   top: 12px;
-  left: calc(50% + 448px);
+  left: calc(50% + 343px);
   width: 40px;
   height: 40px;
 }
-.container,
-.frameDiv,
-.group,
-.parent,
-.parent1,
-.parent2,
-.parent3 {
+.parent {
   position: absolute;
-  top: 8px;
-  left: 11px;
-  border-radius: var(--br-8xs);
+  top: 0;
+  left: 6px;
   background-color: var(--color-white1);
-  width: 1350px;
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1342px;
   height: 64px;
 }
-.container,
-.frameDiv,
-.group,
-.parent1,
-.parent2,
-.parent3 {
-  top: 98px;
+.div1 {
+  left: 26px;
+  display: inline-block;
+  width: 15px;
 }
-.container,
-.frameDiv,
-.parent1,
-.parent2,
-.parent3 {
-  top: 188px;
+.a2,
+.a3,
+.div1,
+.secundaria1 {
+  position: absolute;
+  top: 19px;
 }
-.frameDiv,
-.parent1,
-.parent2,
-.parent3 {
-  top: 278px;
+.a2 {
+  left: 133px;
+  display: inline-block;
+  width: 27px;
 }
-.parent1,
-.parent2,
-.parent3 {
-  top: 368px;
+.a3,
+.secundaria1 {
+  left: 378px;
 }
-.parent2,
-.parent3 {
-  top: 458px;
+.secundaria1 {
+  left: 669px;
 }
-.parent3 {
-  top: 548px;
+.editar1,
+.eliminar1,
+.visualizar1 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 471px);
+  width: 40px;
+  height: 40px;
+}
+.editar1,
+.visualizar1 {
+  left: calc(50% + 406px);
+}
+.visualizar1 {
+  left: calc(50% + 341px);
+}
+.group {
+  position: absolute;
+  top: 64px;
+  left: 6px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1342px;
+  height: 64px;
+}
+.div2 {
+  left: 26px;
+  display: inline-block;
+  width: 14px;
+}
+.a4,
+.a5,
+.div2 {
+  position: absolute;
+  top: 18px;
+}
+.a4 {
+  left: 134px;
+  display: inline-block;
+  width: 27px;
+}
+.a5 {
+  left: 381px;
+}
+.eliminarIcon2,
+.secundaria2 {
+  position: absolute;
+  top: 18px;
+  left: 671px;
+}
+.eliminarIcon2 {
+  height: 52.5%;
+  width: 39.75%;
+  top: 22.5%;
+  right: 30.25%;
+  bottom: 25%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.editar2,
+.eliminar2,
+.visualizar2 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 474px);
+  width: 40px;
+  height: 40px;
+}
+.editar2,
+.visualizar2 {
+  left: calc(50% + 409px);
+}
+.visualizar2 {
+  left: calc(50% + 344px);
+}
+.container {
+  position: absolute;
+  top: 128px;
+  left: 6px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1342px;
+  height: 64px;
+}
+.div3 {
+  left: 26px;
+  display: inline-block;
+  width: 11px;
+}
+.a6,
+.a7,
+.div3 {
+  position: absolute;
+  top: 18px;
+}
+.a6 {
+  left: 136px;
+  display: inline-block;
+  width: 27px;
+}
+.a7 {
+  left: 380px;
+}
+.editar3,
+.eliminar3,
+.visualizar3 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 476px);
+  width: 40px;
+  height: 40px;
+}
+.editar3,
+.visualizar3 {
+  left: calc(50% + 411px);
+}
+.visualizar3 {
+  left: calc(50% + 346px);
+}
+.frameDiv {
+  position: absolute;
+  top: 192px;
+  left: 6px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1342px;
+  height: 64px;
+}
+.a8,
+.div4 {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+  display: inline-block;
+  width: 11px;
+}
+.a8 {
+  left: 138px;
+  width: 27px;
+}
+.editar4,
+.eliminar4,
+.visualizar4 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 475px);
+  width: 40px;
+  height: 40px;
+}
+.editar4,
+.visualizar4 {
+  left: calc(50% + 410px);
+}
+.visualizar4 {
+  left: calc(50% + 345px);
+}
+.parent1 {
+  position: absolute;
+  top: 256px;
+  left: 6px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1342px;
+  height: 64px;
+}
+.div5 {
+  left: 32px;
+  display: inline-block;
+  width: 13px;
+}
+.a10,
+.a11,
+.div5 {
+  position: absolute;
+  top: 18px;
+}
+.a10 {
+  left: 139px;
+  display: inline-block;
+  width: 27px;
+}
+.a11 {
+  left: 382px;
+}
+.editar5,
+.eliminar5,
+.visualizar5 {
+  position: absolute;
+  top: 18px;
+  left: calc(50% + 478px);
+  width: 40px;
+  height: 40px;
+}
+.editar5,
+.visualizar5 {
+  left: calc(50% + 413px);
+}
+.visualizar5 {
+  left: calc(50% + 348px);
+}
+.parent2 {
+  position: absolute;
+  top: 320px;
+  left: 6px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1342px;
+  height: 64px;
+}
+.div6 {
+  left: 34px;
+  display: inline-block;
+  width: 11px;
+}
+.a12,
+.a13,
+.div6 {
+  position: absolute;
+  top: 18px;
+}
+.a12 {
+  left: 141px;
+  display: inline-block;
+  width: 27px;
+}
+.a13 {
+  left: 386px;
+}
+.editar6,
+.eliminar6,
+.visualizar6 {
+  position: absolute;
+  top: 12px;
+  left: calc(50% + 478px);
+  width: 40px;
+  height: 40px;
+}
+.editar6,
+.visualizar6 {
+  left: calc(50% + 413px);
+}
+.visualizar6 {
+  left: calc(50% + 348px);
+}
+.parent3,
+.parent4,
+.parent5 {
+  position: absolute;
+  top: 384px;
+  left: 6px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1342px;
+  height: 64px;
+}
+.parent4,
+.parent5 {
+  top: 448px;
+}
+.parent5 {
+  top: 512px;
 }
 .dropdownIcon {
   width: 32px;
@@ -450,18 +704,18 @@
   left: calc(50% - 25px);
   box-shadow: 0 7px 16px rgba(0, 0, 0, 0.14);
   border-radius: var(--br-21xl);
-  background-color: var(--color-purple);
+  background-color: var(--color-cornflowerblue);
   width: 50px;
   height: 50px;
 }
-.div8 {
+.div10 {
   position: absolute;
   top: 11px;
   left: calc(50% - 3px);
   display: inline-block;
   width: 6.9px;
 }
-.div7 {
+.div9 {
   width: 50px;
   position: relative;
   height: 50px;
@@ -472,19 +726,19 @@
   top: 0;
   left: calc(50% - 25.5px);
   border-radius: var(--br-21xl);
-  border: 2px solid var(--color-gray-2);
+  border: 2px solid var(--color-cornflowerblue);
   box-sizing: border-box;
   width: 51px;
   height: 51px;
 }
-.div10 {
+.div12 {
   position: absolute;
   top: 12px;
   left: calc(50% - 5.5px);
   display: inline-block;
   width: 10.9px;
 }
-.div9 {
+.div11 {
   width: 51px;
   position: relative;
   height: 51px;
@@ -499,52 +753,67 @@
   justify-content: flex-start;
   gap: var(--gap-base);
 }
+.frameParent,
 .pagination {
   position: absolute;
   top: 648px;
   left: 1059px;
   width: 280px;
   height: 51px;
-  color: var(--color-gray-2);
 }
 .frameParent {
-  position: absolute;
   top: 40px;
   left: 0;
   width: 1361px;
   height: 699px;
   overflow-y: auto;
 }
+.menuTableChild {
+  position: absolute;
+  top: 0;
+  left: -13px;
+  background-color: var(--color-white1);
+  border-bottom: 1px solid var(--color-thistle-200);
+  box-sizing: border-box;
+  width: 1343px;
+  height: 40px;
+}
+.acciones,
+.div15,
 .etiqueta,
 .id,
 .nivel {
   position: absolute;
-  top: -3px;
-  left: 119px;
-  font-weight: 600;
+  top: 7px;
+  left: 13px;
+  font-weight: 300;
 }
+.acciones,
+.etiqueta,
+.id,
+.nivel {
+  left: 118px;
+}
+.acciones,
 .etiqueta,
 .nivel {
-  left: 359px;
+  left: 357px;
 }
+.acciones,
 .nivel {
   left: 671px;
 }
-.acciones,
+.acciones {
+  left: 1049px;
+}
 .menuTable {
   position: absolute;
   top: 0;
-}
-.acciones {
-  left: 1153px;
-  font-weight: 600;
-  font-family: var(--font-inter);
-}
-.menuTable {
   left: 19px;
   width: 1342px;
-  height: 24px;
-  font-size: var(--font-size-xl);
+  height: 37px;
+  font-size: var(--font-size-mini);
+  color: var(--color-text);
 }
 .table {
   position: absolute;
@@ -588,7 +857,7 @@
   left: 1060px;
   box-shadow: 0 20px 50px rgba(191, 21, 108, 0.05);
   border-radius: var(--br-21xl);
-  background-color: var(--color-purple);
+  background-color: var(--color-orange-100);
   width: 207px;
   height: 60px;
   display: flex;
@@ -644,7 +913,7 @@
   top: 0;
   left: 0;
   border-radius: var(--br-xl) var(--br-xl) 0 0;
-  background-color: var(--color-purple);
+  background-color: var(--color-cornflowerblue);
   width: 1373px;
 }
 .grupos1 {

@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
 body {
   margin: 0;
   line-height: normal;
@@ -10,36 +10,39 @@ body {
   --font-inter: Inter;
 
   /* font sizes */
-  --font-size-6xl: 25px;
   --font-size-base: 16px;
-  --text-text-regular-2-size: 14px;
-  --font-size-mini: 15px;
   --font-size-mid: 17px;
+  --font-size-mini: 15px;
+  --font-size-6xl: 25px;
   --text-text-regular-1-size: 18px;
-  --font-size-xl: 20px;
   --heading-heading-1-size: 36px;
+  --font-size-xl: 20px;
   --font-size-9xl: 28px;
+  --text-text-regular-2-size: 14px;
   --heading-heading-3-size: 24px;
   --font-size-smi: 13px;
   --font-size-2xs: 11px;
   --font-size-11xl: 30px;
 
   /* Colors */
+  --color-background: #f3f4ff;
   --color-text: #303972;
+  --color-gray-2: #c1bbeb;
+  --color-thistle-100: rgba(193, 187, 235, 0.1);
+  --color-thistle-200: rgba(193, 187, 235, 0.6);
   --color-gray-100: #878787;
   --color-gray-200: #222;
   --color-gray-300: #212121;
-  --color-dodgerblue: #2188e7;
   --color-white1: #fff;
-  --color-gainsboro: #e1e1e1;
-  --color-background: #f3f4ff;
-  --color-gray-2: #c1bbeb;
-  --color-thistle-100: rgba(193, 187, 235, 0.1);
+  --color-cornflowerblue: #0161af;
+  --color-orange-100: #f5a918;
   --color-purple: #4d44b5;
-  --color-orange: #fb7d5b;
+  --color-orange1: #fb7d5b;
   --color-gray-3: #a098ae;
   --color-darkslategray-100: #434343;
   --color-darkslategray-200: #3c3c3c;
+  --color-dodgerblue: #2188e7;
+  --color-gainsboro: #e1e1e1;
   --color-silver-100: #bdbdbd;
   --color-black: #000;
 
@@ -65,12 +68,12 @@ body {
   --padding-mini: 15px;
 
   /* Border radiuses */
-  --br-3xs: 10px;
   --br-8xs: 5px;
   --br-xl: 20px;
   --br-11xl: 30px;
   --br-21xl: 40px;
   --br-base: 16px;
+  --br-3xs: 10px;
   --br-6xl: 25px;
 
   /* Effects */

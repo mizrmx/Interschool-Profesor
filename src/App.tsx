@@ -5,8 +5,6 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import EspecialidadesTaller from "./pages/EspecialidadesTaller";
-import Materia from "./pages/Materia";
 import EnrollmentsByPerson from "./pages/EnrollmentsByPerson";
 import Cursos1B from "./pages/Cursos1B";
 import Grupos from "./pages/Grupos";
@@ -37,14 +35,6 @@ function App() {
 
     switch (pathname) {
       case "/":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/materia":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/enrollments-by-person":
         title = "";
         metaDescription = "";
         break;
@@ -110,9 +100,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<EspecialidadesTaller />} />
-      <Route path="/materia" element={<Materia />} />
-      <Route path="/enrollments-by-person" element={<EnrollmentsByPerson />} />
+      <Route path="/" element={<EnrollmentsByPerson />} />
       <Route path="/cursos-1b" element={<Cursos1B />} />
       <Route path="/grupos" element={<Grupos />} />
       <Route path="/calificaciones-nuevo" element={<CalificacionesNuevo />} />

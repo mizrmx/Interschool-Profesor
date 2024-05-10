@@ -114,129 +114,167 @@ const Cursos1B: FunctionComponent = () => {
             <div className={styles.matemticas}>Matemáticas</div>
             <div className={styles.nuevo}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon} alt="" src="/vector6.svg" />
+              <img className={styles.vectorIcon} alt="" src="/vector4.svg" />
             </div>
             <div className={styles.eliminar}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon1} alt="" src="/vector7.svg" />
+              <img className={styles.vectorIcon1} alt="" src="/vector5.svg" />
             </div>
             <div className={styles.editar}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon2} alt="" src="/vector8.svg" />
+              <img className={styles.vectorIcon2} alt="" src="/vector6.svg" />
             </div>
           </div>
           <div className={styles.group}>
-            <div className={styles.div}>1-1</div>
-            <div className={styles.b}>1B</div>
-            <div className={styles.mat1}>Alg 1</div>
-            <div className={styles.bMat1}>001-2022-1B-ALG1</div>
-            <div className={styles.matemticas}>Álgebra</div>
-            <div className={styles.nuevo}>
+            <div className={styles.div1}>1-1</div>
+            <div className={styles.b1}>1B</div>
+            <div className={styles.alg1}>Alg 1</div>
+            <div className={styles.bAlg1}>001-2022-1B-ALG1</div>
+            <div className={styles.lgebra}>Álgebra</div>
+            <div className={styles.nuevo1}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon} alt="" src="/vector6.svg" />
+              <img className={styles.vectorIcon} alt="" src="/vector4.svg" />
             </div>
-            <div className={styles.eliminar}>
+            <div className={styles.eliminar1}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon1} alt="" src="/vector7.svg" />
+              <img className={styles.vectorIcon1} alt="" src="/vector5.svg" />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar1}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon2} alt="" src="/vector8.svg" />
+              <img className={styles.vectorIcon2} alt="" src="/vector6.svg" />
             </div>
           </div>
           <div className={styles.container}>
-            <div className={styles.div}>1-2</div>
-            <div className={styles.b}>1B</div>
-            <div className={styles.mat1}>Log 1</div>
-            <div className={styles.bMat1}>001-2022-1B-LOG1</div>
-            <div className={styles.matemticas}>Matemáticas</div>
-            <div className={styles.nuevo}>
+            <div className={styles.div2}>1-2</div>
+            <div className={styles.b2}>1B</div>
+            <div className={styles.log1}>Log 1</div>
+            <div className={styles.bLog1}>001-2022-1B-LOG1</div>
+            <div className={styles.matemticas1}>Matemáticas</div>
+            <div className={styles.nuevo1}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon} alt="" src="/vector6.svg" />
+              <img className={styles.vectorIcon} alt="" src="/vector4.svg" />
             </div>
-            <div className={styles.eliminar}>
+            <div className={styles.eliminar1}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon1} alt="" src="/vector7.svg" />
+              <img className={styles.vectorIcon1} alt="" src="/vector5.svg" />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar1}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon2} alt="" src="/vector8.svg" />
+              <img className={styles.vectorIcon2} alt="" src="/vector6.svg" />
             </div>
           </div>
           <div className={styles.frameDiv}>
-            <div className={styles.div}>2-1</div>
-            <div className={styles.b}>1B</div>
-            <div className={styles.mat1}>Prog 1</div>
-            <div className={styles.bMat1}>001-2022-1B-PROG1</div>
+            <div className={styles.div3}>2-1</div>
+            <div className={styles.b3}>1B</div>
+            <div className={styles.prog1}>Prog 1</div>
+            <div className={styles.bProg1}>001-2022-1B-PROG1</div>
             <div className={styles.matemticas}>Programación</div>
-            <div className={styles.nuevo}>
+            <div className={styles.nuevo3}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon} alt="" src="/vector6.svg" />
+              <img className={styles.vectorIcon9} alt="" src="/vector7.svg" />
             </div>
-            <div className={styles.eliminar}>
+            <div className={styles.eliminar3}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon1} alt="" src="/vector7.svg" />
+              <img className={styles.vectorIcon10} alt="" src="/vector8.svg" />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar3}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon2} alt="" src="/vector8.svg" />
+              <img className={styles.vectorIcon11} alt="" src="/vector9.svg" />
             </div>
           </div>
           <div className={styles.parent1}>
-            <div className={styles.div}>0-1</div>
-            <div className={styles.b}>1B</div>
-            <div className={styles.mat1}>Mat 1</div>
-            <div className={styles.bMat1}>001-2022-1B-MAT1</div>
+            <div className={styles.div3}>0-1</div>
+            <div className={styles.b3}>1B</div>
+            <div className={styles.mat11}>Mat 1</div>
+            <div className={styles.bMat11}>001-2022-1B-MAT1</div>
             <div className={styles.matemticas}>Matemáticas</div>
-            <div className={styles.nuevo}>
+            <div className={styles.nuevo4}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon} alt="" src="/vector6.svg" />
+              <img className={styles.vectorIcon9} alt="" src="/vector7.svg" />
             </div>
-            <div className={styles.eliminar}>
+            <div className={styles.eliminar4}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon1} alt="" src="/vector7.svg" />
+              <img className={styles.vectorIcon10} alt="" src="/vector8.svg" />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar4}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon2} alt="" src="/vector8.svg" />
+              <img className={styles.vectorIcon11} alt="" src="/vector9.svg" />
             </div>
           </div>
           <div className={styles.parent2}>
-            <div className={styles.div}>0-1</div>
-            <div className={styles.b}>1B</div>
-            <div className={styles.mat1}>Mat 1</div>
-            <div className={styles.bMat1}>001-2022-1B-MAT1</div>
+            <div className={styles.div5}>0-1</div>
+            <div className={styles.b5}>1B</div>
+            <div className={styles.mat12}>Mat 1</div>
+            <div className={styles.bMat12}>001-2022-1B-MAT1</div>
             <div className={styles.matemticas}>Matemáticas</div>
-            <div className={styles.nuevo}>
+            <div className={styles.nuevo5}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon} alt="" src="/vector6.svg" />
+              <img className={styles.vectorIcon9} alt="" src="/vector7.svg" />
             </div>
-            <div className={styles.eliminar}>
+            <div className={styles.eliminar5}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon1} alt="" src="/vector7.svg" />
+              <img className={styles.vectorIcon10} alt="" src="/vector8.svg" />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar5}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon2} alt="" src="/vector8.svg" />
+              <img className={styles.vectorIcon11} alt="" src="/vector9.svg" />
             </div>
           </div>
           <div className={styles.parent3}>
-            <div className={styles.div}>0-1</div>
-            <div className={styles.b}>1B</div>
-            <div className={styles.mat1}>Mat 1</div>
-            <div className={styles.bMat1}>001-2022-1B-MAT1</div>
+            <div className={styles.div6}>0-1</div>
+            <div className={styles.b6}>1B</div>
+            <div className={styles.mat12}>Mat 1</div>
+            <div className={styles.bMat13}>001-2022-1B-MAT1</div>
             <div className={styles.matemticas}>Matemáticas</div>
-            <div className={styles.nuevo}>
+            <div className={styles.nuevo6}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon} alt="" src="/vector6.svg" />
+              <img className={styles.vectorIcon9} alt="" src="/vector7.svg" />
             </div>
-            <div className={styles.eliminar}>
+            <div className={styles.eliminar6}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon1} alt="" src="/vector7.svg" />
+              <img className={styles.vectorIcon10} alt="" src="/vector8.svg" />
             </div>
-            <div className={styles.editar}>
+            <div className={styles.editar6}>
               <div className={styles.placeholder1} />
-              <img className={styles.vectorIcon2} alt="" src="/vector8.svg" />
+              <img className={styles.vectorIcon11} alt="" src="/vector9.svg" />
+            </div>
+          </div>
+          <div className={styles.parent4}>
+            <div className={styles.div6}>0-1</div>
+            <div className={styles.b6}>1B</div>
+            <div className={styles.mat12}>Mat 1</div>
+            <div className={styles.bMat13}>001-2022-1B-MAT1</div>
+            <div className={styles.matemticas}>Matemáticas</div>
+            <div className={styles.nuevo6}>
+              <div className={styles.placeholder1} />
+              <img className={styles.vectorIcon9} alt="" src="/vector7.svg" />
+            </div>
+            <div className={styles.eliminar6}>
+              <div className={styles.placeholder1} />
+              <img className={styles.vectorIcon10} alt="" src="/vector8.svg" />
+            </div>
+            <div className={styles.editar6}>
+              <div className={styles.placeholder1} />
+              <img className={styles.vectorIcon11} alt="" src="/vector9.svg" />
+            </div>
+          </div>
+          <div className={styles.parent5}>
+            <div className={styles.div6}>0-1</div>
+            <div className={styles.b6}>1B</div>
+            <div className={styles.mat12}>Mat 1</div>
+            <div className={styles.bMat13}>001-2022-1B-MAT1</div>
+            <div className={styles.matemticas}>Matemáticas</div>
+            <div className={styles.nuevo6}>
+              <div className={styles.placeholder1} />
+              <img className={styles.vectorIcon9} alt="" src="/vector7.svg" />
+            </div>
+            <div className={styles.eliminar6}>
+              <div className={styles.placeholder1} />
+              <img className={styles.vectorIcon10} alt="" src="/vector8.svg" />
+            </div>
+            <div className={styles.editar6}>
+              <div className={styles.placeholder1} />
+              <img className={styles.vectorIcon11} alt="" src="/vector9.svg" />
             </div>
           </div>
           <div className={styles.pagination}>
@@ -246,17 +284,17 @@ const Cursos1B: FunctionComponent = () => {
                 alt=""
                 src="/dropdown@2x.png"
               />
-              <div className={styles.div7}>
+              <div className={styles.div9}>
                 <div className={styles.selectedpage} />
-                <div className={styles.div8}>1</div>
+                <div className={styles.div10}>1</div>
               </div>
-              <div className={styles.div9}>
+              <div className={styles.div11}>
                 <div className={styles.background1} />
-                <div className={styles.div10}>2</div>
+                <div className={styles.div12}>2</div>
               </div>
-              <div className={styles.div9}>
+              <div className={styles.div11}>
                 <div className={styles.background1} />
-                <div className={styles.div10}>3</div>
+                <div className={styles.div12}>3</div>
               </div>
               <img
                 className={styles.dropdownIcon}
@@ -267,8 +305,9 @@ const Cursos1B: FunctionComponent = () => {
           </div>
         </div>
         <div className={styles.menuTable}>
-          <div className={styles.idGrupo}>ID Grupo</div>
+          <div className={styles.menuTableChild} />
           <div className={styles.idMateria}>ID Materia</div>
+          <div className={styles.idGrupo}>ID Grupo</div>
           <div className={styles.idCurso}>ID Curso</div>
           <div className={styles.materia}>Materia</div>
           <div className={styles.acciones}>Acciones</div>
@@ -287,13 +326,13 @@ const Cursos1B: FunctionComponent = () => {
         <div className={styles.clonarDesde}>
           <div className={styles.content1}>
             <div className={styles.clonarDesde1}>Clonar desde</div>
-            <img className={styles.vectorIcon21} alt="" src="/vector9.svg" />
+            <img className={styles.vectorIcon27} alt="" src="/vector9.svg" />
           </div>
         </div>
         <div className={styles.clonarHacia}>
           <div className={styles.content2}>
             <div className={styles.clonarHacia1}>Clonar hacia</div>
-            <img className={styles.vectorIcon22} alt="" src="/vector10.svg" />
+            <img className={styles.vectorIcon28} alt="" src="/vector10.svg" />
           </div>
         </div>
         <div className={styles.searchBar}>
@@ -304,7 +343,7 @@ const Cursos1B: FunctionComponent = () => {
         </div>
         <div className={styles.date}>
           <div className={styles.dateChild} />
-          <div className={styles.div13}>2023</div>
+          <div className={styles.div15}>2023</div>
           <img
             className={styles.materialSymbolskeyboardArroIcon}
             alt=""

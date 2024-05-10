@@ -151,7 +151,7 @@
   bottom: 0;
   left: 0;
   border-radius: var(--br-base);
-  background-color: var(--color-orange);
+  background-color: var(--color-orange1);
 }
 .i,
 .rectangleParent {
